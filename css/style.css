@@ -112,11 +112,10 @@ nav{
 .image-content img{
     float: right;
 }
-.header-btn{
+.active-btn{
     display: inline-flex;
-    padding: 14px 25px;
-    width: 164px;
-    height: 50px;
+    padding: 10px 27px;
+    
     background: #65E4A3;
     border-radius: 56px;
     flex-direction: row;
@@ -131,4 +130,55 @@ nav{
     font-size: 16px;
     line-height: 28px;
     margin: 30px 0px;
+    order: 0;
+}
+.header-btn{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 46px;
+    /* gap: 8px; */
+    /* width: 149px; */
+    /* height: 53px; */
+    border: 2px solid #FFFFFF;
+    border-radius: 56px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 30px;
+    color: #ffff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 30px 21px;
+}
+.icon-sec{
+
+    
+   
+
+}
+.icon-sec ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 48px;
+    margin: auto;
+
+
+}
+.icon-sec ul li{
+
+}
+.icon-sec ul li a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.2652px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }
