@@ -1,4 +1,1 @@
-# figma-to-html
-This a simple figma to html project just
-#this is my first update
-I'm in brance in figma.
+ this my first project here I'm using Git for version controlling.
