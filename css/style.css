@@ -245,17 +245,80 @@ nav{
     color: #777777;
 }
 .home-single a{
+
+    display: inline-flex;
+    align-items: center;
+    margin: 2px 0px;
+    border-bottom: 2px solid #777777;
+    
+}
+.home-single a p{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 36px;
     color: #0A2640;
-    display: inline-flex;
-    align-items: center;
-    
+
 }
+
 .home-single a img{
     width: 24px;
-height: 26px;
+    height: 26px;
+}
+/* End the our services */
+.our-clients{
+
+}
+.single-client{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-img{
+    flex-basis: 50%;
+}
+.client-content{
+    flex-basis: 50%;
+}
+.single-p{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.single-p p{
+    font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 32px;
+     margin-left: 10px;
+}
+.client-content h3{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.client-content a{
+    display: inline-flex;
+    padding: 16px 56px;
+    background: #0A2640;
+    border-radius: 56px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.our-clients{
+    margin-top: 78px;
 }
