@@ -6,7 +6,7 @@
 }
 a{
     text-decoration: none;
-    color: #FFFFFF;
+    
 }
 .common{
     max-width: 1200px;
@@ -45,6 +45,7 @@ nav{
     line-height: 34px;
     display: flex;
     align-items: center;
+    color: #ffff;
 }
 .main-nav{
     flex-basis: 50%;
@@ -70,7 +71,7 @@ nav{
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
- 
+    color: #ffff;
     margin: 0 20px;
 }
 .main-nav ul li:last-child{
@@ -189,4 +190,72 @@ nav{
     align-items: center;
     color: #FFFFFF;
     margin: 20px 0px;
+}
+/* End Header */
+.our-services{
+  
+
+}
+.main-p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight:100;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+.our-services h1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+
+}
+.home-post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.home-single{
+    flex-basis: 28%;
+}
+.home-single h3{
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 36px;
+     color: #000000;
+}
+.home-single p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+.home-single a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #0A2640;
+    display: inline-flex;
+    align-items: center;
+    
+}
+.home-single a img{
+    width: 24px;
+height: 26px;
 }
