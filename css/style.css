@@ -380,6 +380,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 15px;
 }
 .slider{
     
@@ -401,4 +402,30 @@ nav{
 }
 .slider-content{
     display: flex;
+    align-items: center;
+    width: 270px;
+    height: 58px;
+    margin: 30px;
+}
+.content-text{
+    margin: 0px 15px;
+}
+.content-text-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+.content-text-2{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+}
+.slider-content-img img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
 }
