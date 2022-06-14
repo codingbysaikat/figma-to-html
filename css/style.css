@@ -351,6 +351,16 @@ nav{
     background: #0A2640;
     
 }
+.slide-box{
+    display: flex;
+    position: relative;
+
+}
+.slide-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
 .slide-sec h2{
     font-family: 'Manrope';
     font-weight: 400;
@@ -359,9 +369,7 @@ nav{
     color: #FFFFFF;
     
 }
-.slide-btn{
-    
-}
+
 .btn-s{
     width: 55px;
     height: 55px;
