@@ -346,3 +346,25 @@ nav{
     background: #0A2640;
 
 }
+/* clients sections */
+.slide-sec{
+    background: #0A2640;
+    
+}
+.slide-sec h2{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    
+}
+.slide-btn{
+    
+}
+.btn-s{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+}
