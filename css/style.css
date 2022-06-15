@@ -385,7 +385,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 15px;
+    padding: 52px;
 }
 .slider{
     
@@ -433,4 +433,14 @@ line-height: 32px;
     width: 58px;
     height: 58px;
     border-radius: 50%;
+}
+/* End the second customer section */
+.next-customer{
+    margin-top: 50px;
+}
+.img-area img{
+    width: 100%;
+    margin: auto;
+    padding: 0px 49px;
+   
 }
