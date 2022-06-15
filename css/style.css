@@ -223,6 +223,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0 60px;
 
 }
 .home-single{
@@ -443,4 +444,27 @@ line-height: 32px;
     margin: auto;
     padding: 0px 49px;
    
+}
+.content-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 49px;
+
+}
+.simple-heading{
+    flex-basis: 50%;
+
+
+}
+.simple-heading h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+.slider-area{
+    flex-basis: 50%;
+
 }
