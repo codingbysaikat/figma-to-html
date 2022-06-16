@@ -599,3 +599,25 @@ color: #0A2640;
 
 
 }
+.mail-subscription{
+    background:#0A2640;
+    background-image: url(../images/Ellipse\ 9.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+.mail-subscription h1{
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
