@@ -599,12 +599,15 @@ color: #0A2640;
 
 
 }
+/* End the blog section */
 .mail-subscription{
     background:#0A2640;
-    background-image: url(../images/Ellipse\ 9.png);
+    background-image: url(../images/Ellipse\ 99.png);
     background-repeat: no-repeat;
     background-position: top right;
-    
+    border-radius: 7px;
+    padding: 66px;
+    margin-top: 10px;
 }
 .mail-subscription h1{
     text-align: center;
@@ -618,6 +621,52 @@ color: #0A2640;
     align-items: center;
     text-align: center;
     justify-content: center;
-
+    
     color: #FFFFFF;
+}
+.mail-box{
+    display: flex;
+    justify-content: center;
+    margin: 13px 0px;
+    
+    
+}
+.mail-box input[type=text]{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 240px;
+    width: 25%;
+    padding: 16px;
+    font-size: 15px;
+}
+.mail-box input[type=submit]{
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+    border-radius: 56px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #0A2640;
+    padding: 3px 51px;
+    margin-left: 24px;
+    cursor: pointer;
+
+
+}
+.log2{
+    flex-basis: 50%;
+}
+.log2 a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.25px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #0A2640;
+
+
 }
