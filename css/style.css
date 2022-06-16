@@ -13,6 +13,7 @@ a{
     margin: auto;
 
 }
+
 /* End the comment parts */
 
 header{
@@ -655,6 +656,8 @@ color: #0A2640;
 
 
 }
+/* start footer css */
+
 .log2{
     flex-basis: 50%;
 }
@@ -669,4 +672,64 @@ color: #0A2640;
     color: #0A2640;
 
 
+}
+
+.footer-area{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 104px;
+}
+.log2{
+    flex-basis: 50%;
+
+}
+.links{
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-col{
+    flex-basis: 30%;
+}
+
+.log2 p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    width: 400px;
+}
+.rights{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    align-items: center;
+    display: flex;
+
+
+}
+.footer-col-heading{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    align-items: center;
+    color: #000000;
+}
+.single-col ul li{
+    font-family: 'Open Sans';
+    list-style: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+
+
+}
+.single-col ul li a{
+    color:#777777 ;
 }
