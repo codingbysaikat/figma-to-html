@@ -492,3 +492,14 @@ line-height: 32px;
     line-height: 32px;
 }
 /* End all customer next */
+.blog-p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
