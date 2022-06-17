@@ -491,27 +491,38 @@ line-height: 32px;
 
 }
 .single-accordation{
+    width: 449px;
+    margin-bottom: 20px;
+
+}
+.accordation-heading{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     border-bottom: 1px solid #C4C4C4;
     align-items: center;
-    width: 449px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
     padding-bottom: 7px;
+    
  
     
 }
-.single-accordation img{
+.accordation-heading img{
     padding-left: 35px;
 }
-.single-accordation p{
+.accordation-heading p{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+}
+.panel{
+    font-family: 'Manrope';
+    display: none;
+    
+    
 }
 /* End all customer next */
 .blog-p{
