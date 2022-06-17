@@ -225,6 +225,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 60px;
+    margin-top: 20px;
 
 }
 .home-single{
@@ -405,7 +406,7 @@ nav{
     font-size: 24px;
     line-height: 36px;
     text-align: left;
-    padding: 37px;
+    padding: 22px 15px;
 }
 .slider-content{
     display: flex;
@@ -525,7 +526,8 @@ line-height: 32px;
 }
 .post-feature{
     border-radius: 12px;
-    width: 100%;
+    width: 298px;
+    height: 209px;
 }
 .athour{
     display: flex;
@@ -700,6 +702,7 @@ color: #0A2640;
     line-height: 28px;
     color: #777777;
     width: 400px;
+    margin: 42px 0px;
 }
 .rights{
     font-family: 'Open Sans';
@@ -727,9 +730,25 @@ color: #0A2640;
     font-size: 20px;
     line-height: 32px;
     color: #777777;
+    margin: 19px 0px;
 
 
 }
 .single-col ul li a{
     color:#777777 ;
+}
+.hiring{
+    width: 72px;
+    height: 30px;
+    padding: 3px 6px;
+
+    background: #65E4A3;
+    border-radius: 120px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+    color: #0A2640;
+
+
 }
