@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1200px) {
+    .single-post {
+        flex-basis: 321px;
+        margin: 16px;
+    }
+    .icon-sec ul li {
+        margin: 0 12px;
+    }
+
+}
+
