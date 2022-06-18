@@ -1,13 +1,14 @@
 *{
     padding: 0;
+    margin: auto;  
     
     box-sizing: border-box;
     
     
 }
 body{
-    margin: auto;
-    max-width: 1200px;
+
+    max-width: 1300px;
 }
 a{
     text-decoration: none;
@@ -247,7 +248,7 @@ nav{
      font-style: normal;
      font-weight: 400;
      font-size: 24px;
-     line-height: 0;
+     
      color: #000000;
 }
 .home-single p{
@@ -305,6 +306,9 @@ nav{
     display: flex;
     align-items: center;
     margin: 10px 0px;
+}
+.single-p img{
+    margin: 0;
 }
 .single-p p{
     font-family: 'Open Sans';
@@ -501,6 +505,7 @@ line-height: 32px;
 }
 .slider-area{
     flex-basis: 50%;
+    padding-top: 14px;
 
 }
 .single-accordation{
@@ -515,6 +520,7 @@ line-height: 32px;
     border-bottom: 1px solid #C4C4C4;
     align-items: center;
     cursor: pointer;
+    padding-bottom: 10px;
     
     
  
@@ -583,6 +589,7 @@ line-height: 32px;
     margin: 10px 0px;
 }
 .athour img{
+    margin: 0;
     margin-right: 10px;
     width: 32px;
     height: 32px;
@@ -613,6 +620,7 @@ color: #0A2640;
     color: #000000;
 }
 .author-name{
+    margin: 0;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -659,6 +667,7 @@ color: #0A2640;
     border-radius: 7px;
     padding: 66px;
     margin-top: 10px;
+    
 }
 .mail-subscription h1{
     text-align: center;
@@ -690,6 +699,7 @@ color: #0A2640;
     width: 25%;
     padding: 16px;
     font-size: 15px;
+    margin: 0;
 }
 .mail-box input[type=submit]{
     background: #65E4A3;
@@ -701,6 +711,7 @@ color: #0A2640;
     line-height: 28px;
     color: #0A2640;
     padding: 3px 51px;
+    margin: 0;
     margin-left: 24px;
     cursor: pointer;
 
@@ -723,10 +734,14 @@ color: #0A2640;
 
 
 }
+.log2 a img{
+    margin: 0;
+}
 
 .footer-area{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 20px;
     margin-top: 104px;
 }
 .log2{

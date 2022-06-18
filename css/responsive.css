@@ -6,6 +6,45 @@
     .icon-sec ul li {
         margin: 0 12px;
     }
+    .simple-heading h2 {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 45px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .icon-sec ul li {
+        margin: 0 8px;
+    }
+    .icon-sec ul li a{
+        font-size: 30.2652px;
+    }
+    .home-post{
+        padding: 0;
+    }
+    .single-client{
+        margin-top: 20px;
+    }
+
+    .single-post {
+        flex-basis: 300px;
+        margin: 6px;
+    }
+    .single-accordation {
+        width: 339px;
+        
+    }
+    .accordation-heading img{
+        margin-left: 2px;
+    }
+    .accordation-heading p{
+        font-size: 16px;
+        margin: 0;
+    }
+    .accordation-heading img{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 990px) {
 
 }
-
