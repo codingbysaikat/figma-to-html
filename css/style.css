@@ -1,18 +1,19 @@
 *{
     padding: 0;
-    margin: 0;
+    
     box-sizing: border-box;
     
+    
+}
+body{
+    margin: auto;
+    max-width: 1200px;
 }
 a{
     text-decoration: none;
     
 }
-.common{
-    max-width: 1200px;
-    margin: auto;
 
-}
 
 /* End the comment parts */
 
@@ -23,7 +24,7 @@ header{
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 642px;
-    padding: 0 10px;
+    padding: 0 20px;
 
 }
 
@@ -48,6 +49,10 @@ nav{
     display: flex;
     align-items: center;
     color: #ffff;
+}
+.log a img{
+    margin: 0;
+
 }
 .main-nav{
     flex-basis: 50%;
@@ -242,7 +247,7 @@ nav{
      font-style: normal;
      font-weight: 400;
      font-size: 24px;
-     line-height: 36px;
+     line-height: 0;
      color: #000000;
 }
 .home-single p{
@@ -252,6 +257,7 @@ nav{
     font-size: 20px;
     line-height: 32px;
     color: #777777;
+    margin: 8px 0px;
 }
 .home-single a{
 
@@ -306,7 +312,7 @@ nav{
      font-weight: 400;
      font-size: 20px;
      line-height: 32px;
-     margin-left: 10px;
+     margin: 5px;
 }
 .client-content h3{
     font-family: 'Manrope';
@@ -333,6 +339,7 @@ nav{
     margin-top: 50px;
 }
 .our-clients{
+    margin: 0px 20px;
     margin-top: 78px;
 }
 /* End first single customer */
@@ -351,12 +358,12 @@ nav{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
-    margin-left: 10px
+    margin: 5px;
 
 }
-.single-p2:hover{
+.single-active{
     background: #0A2640;
+    color: #FFFFFF;
 
 }
 /* clients sections */
@@ -384,7 +391,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 52px;
+    padding: 19px;
 }
 .btn-s-prev{
     position: absolute;
@@ -420,7 +427,10 @@ nav{
 
 
 }
-.slider-text{
+.text-area{
+    
+}
+.text-area p{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 24px;
@@ -431,9 +441,12 @@ nav{
 .slider-content{
     display: flex;
     align-items: center;
-    width: 270px;
-    height: 58px;
-    margin: 30px;
+   
+
+}
+.slider-content-imge{
+    margin: 0;
+    padding: 22px 15px;
 }
 .content-text{
     margin: 0px 15px;
@@ -501,9 +514,8 @@ line-height: 32px;
     align-items: flex-start;
     border-bottom: 1px solid #C4C4C4;
     align-items: center;
-    margin-bottom: 15px;
     cursor: pointer;
-    padding-bottom: 7px;
+    
     
  
     
@@ -516,13 +528,18 @@ line-height: 32px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
+   
+    
 }
 .panel{
     font-family: 'Manrope';
     display: none;
     
     
+}
+.panel p{
+    margin: 0;
+    padding-top: 10px;
 }
 /* End all customer next */
 .blog-p{
