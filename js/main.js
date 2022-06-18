@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   
     $('.autoplay').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -12,7 +13,7 @@ $(document).ready(function(){
 
 
 
-
+     
 
 
   });

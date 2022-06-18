@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/meanmenu.css">
 <!-- slick slider css -->
 <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
 <!-- <link rel="stylesheet" href="css/slick-theme.scss"> -->
@@ -24,7 +25,7 @@
     
     
                 </div>
-                <div class="main-nav">
+                <div class="main-nav menu">
                     <ul>
                         <li><a href="#">Product</a></li>
                         <li><a href="#">Services</a></li>
@@ -377,8 +378,15 @@
        <p class="rights">All rights reserved.</p>
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/accordation.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('.menu').meanmenu();
+        });
+    </script>
+    
 </body>
 </html>
