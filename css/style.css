@@ -239,8 +239,8 @@ nav{
     flex-basis: 28%;
 }
 .home-single img{
-    width: 300px;
-    height: 354px;
+    width: 100%;
+    height: auto;
 
 }
 .home-single h3{
@@ -523,17 +523,19 @@ line-height: 32px;
     padding-bottom: 10px;
     
     
+    
  
     
 }
 .accordation-heading img{
-    padding-left: 35px;
+    padding-left: 5px;
 }
 .accordation-heading p{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    font-weight: bold;
    
     
 }

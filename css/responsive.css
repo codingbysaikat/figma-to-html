@@ -11,6 +11,9 @@
         font-size: 26px;
         line-height: 45px;
     }
+    .accordation-heading p{
+        font-weight: bold;
+    }
 }
 @media only screen and (max-width: 1080px) {
     .icon-sec ul li {
@@ -46,5 +49,58 @@
     }
 }
 @media only screen and (max-width: 990px) {
+    .main-nav ul li:not(:last-child) a{
+        margin: 0 12px;
+    }
+    .blog-posts h2{
+        font-size: 39px;
+
+    }
+    .slide-sec h2{
+        font-size: 40px;
+        line-height: 61px;
+    }
+    .mail-subscription h1{
+        font-size: 44px;
+    }
+    .client-img img {
+        width: 100%;
+        padding: 28px;
+    }
+    .our-services h1{
+        font-size: 43px;
+    }
+    .text-content p{
+        margin: 20px 1px;
+    }
+    .post-feature{
+        width: 100%;
+    }
+    .single-post{
+        flex-basis: 272px;
+    }
+}
+@media only screen and (max-width: 893px) {
+    .main-nav ul li:not(:last-child) a{
+        margin: 0 7px;
+    }
+    .single-p img{
+        width: 26px;
+    }
+    .single-p p{
+        font-size: 17px;
+    }
+    .client-content h3{
+        line-height: 46px;
+    }
+    .single-p2 p{
+        font-size: 14px;
+    }
+    .slider-content-imge{
+        padding: 0px 7px;
+    }
+    .hiring{
+        font-size: 8px;
+    }
 
 }
