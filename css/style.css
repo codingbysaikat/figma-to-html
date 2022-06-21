@@ -26,6 +26,7 @@ header{
     background-position: top right;
     background-size: 642px;
     padding: 0 20px;
+    
 
 }
 
@@ -35,6 +36,7 @@ nav{
     justify-content:space-between;
     align-items: center;
     padding: 40px 0px;
+    position: relative;
 
 }
 .log{
@@ -100,7 +102,67 @@ nav{
     padding: 10px 25px;
 
 }
+.short-metu{
+    position: absolute;
+    display: none;
+    right: 12px;
+}
+.short-metu a{
+    display: inline-block; 
+    cursor: pointer;
+}
+.fa-bars{
+    color: #ffff;
+    font-size: 34px;
+}
+.menu-cart{
+    width: 208px;
+    height: 305px;
+    background: #ffff;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    right: 12px;
+    display: none;
+    
+}
+.menu-cart ul{
+    padding: 34px;
+}
+.cross{
+    top: 2px;
+    right: 6px;
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+}
+.menu-cart ul{
 
+}
+.menu-cart ul li{
+    list-style: none;
+    text-align: center;
+    padding: 9px;
+    transition: 1s;
+
+}
+.menu-cart ul li a{
+    width: 61px;
+    height: 28px;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A2640;
+    margin: 0 20px;
+   
+}
+.menu-cart ul li a:hover{
+text-decoration: 3px underline;
+
+}
 .hader-content{
     display: flex;
     flex-wrap: wrap;
@@ -293,13 +355,16 @@ nav{
     align-items: center;
 }
 .client-img{
+    order: 0;
     flex-basis: 50%;
 }
 .client-img img{
+    order: 1;
     width: 90%;
 }
 
 .client-content{
+    
     flex-basis: 50%;
 }
 .single-p{
@@ -428,23 +493,24 @@ nav{
     box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     margin: 10px;
+    position: relative;
 
 
 }
-.text-area{
-    
-}
+
 .text-area p{
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 29px;
+    line-height: 44px;
     text-align: left;
     padding: 22px 15px;
 }
 .slider-content{
     display: flex;
     align-items: center;
+    position: absolute;
+    bottom: 15px;
    
 
 }

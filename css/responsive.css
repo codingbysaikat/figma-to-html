@@ -15,7 +15,7 @@
         font-weight: bold;
     }
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1094px) {
     .icon-sec ul li {
         margin: 0 8px;
     }
@@ -34,18 +34,26 @@
         margin: 6px;
     }
     .single-accordation {
-        width: 339px;
+        width: 318px;
         
     }
+    .accordation-heading p{
+        font-size: 13px;
+    }
     .accordation-heading img{
-        margin-left: 2px;
+        margin-left: 1px;
+        height: 24px;
     }
     .accordation-heading p{
-        font-size: 16px;
+        font-size: 14px;
         margin: 0;
     }
     .accordation-heading img{
         padding-left: 0px;
+    }
+    .text-area p{
+        font-size: 26px;
+        line-height: 40px;
     }
 }
 @media only screen and (max-width: 990px) {
@@ -79,17 +87,43 @@
     .single-post{
         flex-basis: 272px;
     }
-}
-@media only screen and (max-width: 893px) {
-    .main-nav ul li:not(:last-child) a{
-        margin: 0 7px;
+   
+    
+    .single-p p{
+        font-size: 17px;
+    }
+    .accordation-heading p{
+        font-size: 14px;
     }
     .single-p img{
         width: 26px;
     }
-    .single-p p{
-        font-size: 17px;
+    .accordation-heading{
+        width: 319px;
     }
+    .panel p{
+        font-size: 12px;
+    }
+    .text-area p{
+        line-height: 37px;
+        font-size: 21px;
+    }
+    .slider-content-imge{
+        padding: 22px 10px;
+    }
+    .mail-box input[type=text]{
+        width: 35%;
+       
+
+    }
+}
+
+@media only screen and (max-width:893px) {
+    .main-nav ul li:not(:last-child) a{
+        margin: 0 7px;
+    }
+
+ 
     .client-content h3{
         line-height: 46px;
     }
@@ -103,4 +137,357 @@
         font-size: 8px;
     }
 
+}
+@media only screen and (max-width:864px) {
+   .icon-sec ul li a img{
+    
+    margin: 2px;
+   } 
+   .icon-sec ul li a{
+    font-size: 19.2652px;
+   }
+   .text-area p{
+    padding: 11px 10px;
+   }
+
+   .slider{
+    margin: 5px;
+   }
+   .single-post{
+    flex-basis: 226px;
+   }
+   .log2 p{
+    width: 308px;
+   }
+   .content-text-1 {
+    font-size: 13px;
+}
+   
+}
+@media only screen and (max-width:799px) {
+    .hiring {
+        font-size: 5px;
+    }
+    .hiring{
+        padding: 3px 3px;
+        width: 2px;
+    }
+    .mail-subscription h1 {
+        font-size: 32px;
+        line-height: 49px;
+    }
+    .mail-box input[type=text]{
+        width: 35%;
+        font-size: 15px;
+
+    }
+    .blog-posts h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .simple-heading h2 {
+        
+        font-size: 23px;
+        line-height: 56px;
+    }
+
+    .content-text-2{
+        font-size: 11px;
+    }
+    .slick-slide img {
+       
+        width: 79%;
+    }
+    .content-text {
+        margin: 0px 0px;
+    }
+    .slide-sec h2 {
+        font-size: 33px;
+        line-height: 51px;
+    }
+    .btn-s-prev{
+        right: 78px;
+    }
+    .btn-s-prev-next{
+        right: 14px;
+    }
+    .client-content h3{
+        font-size: 24px;
+    }
+    .single-p img {
+        width: 23px;
+    }
+    .single-p p {
+        font-size: 15px;
+    }
+    .our-services h1 {
+        font-size: 37px;
+        line-height: 52px;
+    }
+    .active-btn{
+        padding: 9px 25px;
+        font-size: 15px;
+    }
+    .header-btn{
+        padding: 6px 44px;
+        margin-left: 5px;
+    }
+    .text-content h1{
+        font-size: 27px;
+    }
+    
+}
+@media only screen and (max-width:735px) {
+
+.footer-area{
+    display: block;
+}
+.log2 p {
+    width: 443px;
+}
+.hiring{
+    width: 66px;
+    height: 30px;
+    padding: 3px 6px;
+
+    background: #65E4A3;
+    border-radius: 120px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 28px;
+    color: #0A2640;
+
+
+}
+
+.single-post {
+    flex-basis: 323px;
+    
+}
+.post-feature{
+    height: 285px;
+}
+.simple-heading h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+.simple-heading {
+    flex-basis: 82%;
+}
+.slider-area{
+    flex-basis: 100%;
+    padding-top: 57px;
+
+}
+.main-nav{
+    display: none;
+}
+.log{
+    margin: 0; 
+}
+.short-metu{
+    display: block;
+}
+
+
+.single-accordation{
+    width: 449px;
+    margin-bottom: 20px;
+
+}
+.accordation-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid #C4C4C4;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+    width: 449px;
+    
+    
+ 
+    
+}
+
+.accordation-heading img{
+    padding-left: 5px;
+}
+.accordation-heading p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: bold;
+   
+    
+}
+.panel{
+    font-family: 'Manrope';
+    display: none;
+    
+    
+}
+.panel p{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+}
+
+
+@media only screen and (max-width:693px) {
+
+    .icon-sec ul li a {
+        font-size: 10.2652px;
+    }
+    .icon-sec ul li a img {
+        
+        width: 20px;
+    }
+    .log a{
+        font-size: 35.25px;
+    }
+    .text-content h1 {
+        font-size: 23px;
+    }
+    .text-content p {
+        margin: 13px 1px;
+    }
+    .active-btn {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+    .header-btn {
+        padding: 2px 28px;
+        margin-left: 3px;
+        font-size: 12px;
+    }
+    .home-post{
+        display: block;
+    }
+    .home-single {
+        width: 450px;
+        padding: 10px;
+    }
+
+
+    .single-client{
+        display:inline-grid;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .next-content{
+        order: 1;
+    }
+    .next-img{
+        order:0 ;
+    }
+    .slide-sec{
+       visibility: hidden;
+       height: 0;
+    }
+    .main-post{
+        display: block;
+    }
+    .single-post {
+        width: 416px;
+        margin: auto;
+    }
+   
+}
+@media only screen and (max-width:693px) {
+    .text-content h1 {
+        font-size: 13px;
+    }
+    .text-content p {
+       
+        font-size: 10px;
+    }
+    .active-btn {
+        padding: 2px 6px;
+        font-size: 9px;
+    }
+    .header-btn {
+        padding: 0px 15px;
+        margin-left: 3px;
+        font-size: 9px;
+    }
+    .icon-sec ul li a {
+        font-size: 10.2652px;
+    }
+    .icon-sec ul li a img {
+        width: 10px;
+    }
+    .icon-sec ul li {
+        margin: 0 4px;
+    }
+    .our-services h1 {
+        font-size: 19px;
+        line-height: 33px;
+    }
+    .home-single {
+        width: 289px;
+        
+    }
+    .content-area{
+        padding: 31px 6px;
+    }
+    .simple-heading {
+        flex-basis: 95%;
+    }
+    .simple-heading h2{
+        font-size: 25px;
+        line-height: 49px;
+    }
+    .single-accordation{
+        width: 325px;
+    }
+    .accordation-heading{
+        width: 321px;
+    }
+    .accordation-heading p{
+        font-size: 14px;
+    }
+    .panel p{
+        font-size: 12px;
+    }
+    .single-post{
+        width: 322px;
+    }
+    .blog-posts h2 {
+        font-size: 19px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    .mail-subscription h1 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .mail-box{
+        display: block;
+        text-align: center;
+    }
+    .mail-box input[type=text]{
+        width: 202px;
+        margin: 15px 0;
+    }
+    .mail-box input[type=submit]{
+        padding: 14px 51px;
+        margin: 0;
+        
+        
+    }
+    .log2 p {
+        width: 337px;
+    }
+    .hiring{
+        display: none;
+    }
 }

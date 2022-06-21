@@ -13,7 +13,19 @@ $(document).ready(function(){
 
 
 
-     
+     $('#short-menu').click(function(){
+        $(this).fadeOut('',function(){
+            $('.menu-cart').fadeIn('slow');
+        });
+        
+
+     });
+     $('.cross').click(function(){
+        $('.menu-cart').fadeOut('slow',function(){
+            $('#short-menu').fadeIn('slow');
+        });
+        
+     })
 
 
   });
